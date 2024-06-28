@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Coolvetica Regular";
+    src: url(assets/fonts/coolvetica-rg.otf);
+    font-weight: 100;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #2239c9;   
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    padding: 25px 50px 75px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+form .input-field{
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 25px;
+    row-gap: 10px;
+    text-align: center;
+}
+
+form .pwd-length label{
+    width: 100px;
+    text-wrap: nowrap;
+}
+
+form .pwd-length{
+   display: flex;
+   justify-content: space-around;
+   column-gap: 70px;
+   width: 400px;
+}
+
+form .pwd-length span{
+    color: white;
+    font-weight: bold;
+}
+
+form .pwd-check{
+    width: 400px;
+}
+
+form .form-button{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10px;
+    width: 500px;
+}
+
+label{
+    color: white;
+    font-family: 'Coolvetica Regular', monospace;
+    font-size: 15px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}

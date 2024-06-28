@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<meta name="viewport content=width=device-width, initial-scale=1.0">
+<title>Random Passoword Generator</title>
+<link href= "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h3 class=".playwrite-in-header">RANDOM PASSWORD/PIN GENERATOR</h3>
+<div class="container">
+    <form action="#" class="form-body">
+        <input class="form-control input-field" type="text" name="">
+        <div class="container pwd-length">
+            <label for="" class="form-label"> Required Length:</label>
+            <input type="range" class="form-range" name="" id="lengthRange" value="4" min="4" max="16" step="1">
+            <span id="pwdlength">4</span>
+        </div>
+        <div class="container form-check pwd-check">
+            <input type="checkbox" class="form-check-input" value="0" id="uppercaseCheck">
+            <label for="" class="form-label">Include uppercase</label>
+        </div>
+        <div class="container form-check pwd-check">
+            <input type="checkbox" class="form-check-input" value="1" id="lowercaseCheck">
+            <label for="" class="form-label">Include lowercase</label>
+        </div>
+        <div class="container form-check pwd-check">
+            <input type="checkbox" class="form-check-input" value="2" id="numberCheck">
+            <label for="" class="form-label">Include numbers</label>
+        </div>
+        <div class="container form-check pwd-check">
+            <input type="checkbox" class="form-check-input" value="3" id="specialCharacterCheck">
+            <label for="" class="form-label">Include special characters</label>
+        </div>
+
+        <div class="container form-button  p-2">
+            <button class="btn btn-light" type="button" id="GenerateResult">Generate</button>
+            <button class="btn btn-light" type="reset" id="ResetForm">Clear</button>
+            <!-- <button class="btn btn-light" id="CopyToClipboard">Copy to clipboard</button> -->
+        </div>
+    </form>
+</div>
+<br>
+<br>
+<br>
+  <footer>&copy;Jaideep Goswami</footer>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
